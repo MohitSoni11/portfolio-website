@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Ulkit CSS CDN Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
+
+  <!-- Connecting custom CSS file to index.html -->
+  <link rel="stylesheet" type="text/css" href="../static/main.css"/>
+
+  <title>Mohit Soni's Portfolio</title>
+</head>
+<body class="uk-background-muted">
+  <h1 class="uk-animation-slide-top">Mohit Soni</h1>
+
+  <nav uk-dropnav>
+    <ul class="uk-subnav">
+      <li class="uk-active"><a href="#">Active</a></li>
+      <li>
+        <a href="#">Parent <span uk-drop-parent-icon></span></a>
+        <div class="uk-dropdown">
+          <ul class="uk-nav uk-dropdown-nav">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">Parent <span uk-drop-parent-icon></span></a>
+        <div class="uk-dropdown">
+          <ul class="uk-nav uk-dropdown-nav">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+          </ul>
+        </div>
+      </li>
+        <li><a href="#">Item</a></li>
+    </ul>
+  </nav>
+
+  <!-- Ulkit JS CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
