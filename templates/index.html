@@ -5,46 +5,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Ulkit CSS CDN Link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
+  <!-- Bootstrap CSS CDN Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" crossorigin="anonymous">
 
   <!-- Connecting custom CSS file to index.html -->
   <link rel="stylesheet" type="text/css" href="../static/main.css"/>
 
+  <!-- Title of page + favicon -->
   <title>Mohit Soni's Portfolio</title>
 </head>
-<body class="uk-background-muted">
-  <h1 class="uk-animation-slide-top">Mohit Soni</h1>
-
-  <nav uk-dropnav>
-    <ul class="uk-subnav">
-      <li class="uk-active"><a href="#">Active</a></li>
-      <li>
-        <a href="#">Parent <span uk-drop-parent-icon></span></a>
-        <div class="uk-dropdown">
-          <ul class="uk-nav uk-dropdown-nav">
-            <li class="uk-active"><a href="#">Active</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
+<body>
+  <section id="home">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg w-75 mx-auto">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Logo</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
           </ul>
         </div>
-      </li>
-      <li>
-        <a href="#">Parent <span uk-drop-parent-icon></span></a>
-        <div class="uk-dropdown">
-          <ul class="uk-nav uk-dropdown-nav">
-            <li class="uk-active"><a href="#">Active</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-          </ul>
-        </div>
-      </li>
-        <li><a href="#">Item</a></li>
-    </ul>
-  </nav>
+      </div>
+    </nav>
 
-  <!-- Ulkit JS CDN Link -->
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit-icons.min.js"></script>
+    <!-- Home Section -->
+    <div class="w-75 mx-auto">
+      
+    </div>
+
+  </section>
+
+  <!-- Bootstrap JS CDN Link -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
