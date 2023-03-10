@@ -2,42 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
-/* Setting Variables */
-
-:root {
-  --dark-red: #280000;
+* {
+  margin: 0;
 }
-
-/* Basic CSS Rules */
 
 body {
   font-family: 'Poppins';
-  font-weight: 300;
 }
 
 nav {
-  margin-top: 1%;
+  border-bottom: rgba(185, 184, 184, 30%) solid 1px;
 }
 
-/* Class-based CSS Rules */
-
-.navbar-nav {
-  margin-left: auto;
-  width: 40%;
+.nav-container {
+  padding: 10px 50px;
+  font-weight: bold;
 }
 
 .nav-item {
-  width: 25%;
-}
-
-.fill-div {
-  background-color: white;
-  height: 90vh;
-}
-
-/* ID-based CSS Rules */
-
-#home {
-  border: red solid 5px;
-  height: 900px;
+  margin: 0 15px;
 }
