@@ -11,6 +11,7 @@ body {
 }
 
 nav {
+  background-color: white;
   border-bottom: rgba(185, 184, 184, 30%) solid 1px;
 }
 
@@ -21,4 +22,29 @@ nav {
 
 .nav-item {
   margin: 0 15px;
+}
+
+#home {
+  padding: 20% 0%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 70px;
+  padding: 0 20px;
+}
+
+.first-name {
+  border: rgba(185, 184, 184, 30%) solid 1px;
+}
+
+.last-name {
+  background-color: black;
+  color: white;
+}
+
+.description {
+  font-size: 20px;
+  padding: 10px 0;
 }
