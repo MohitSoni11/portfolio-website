@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Poppins';
+  animation: fadeIn 3s;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
 #home {
   text-align: center;
   font-weight: bold;
+  padding-top: 60px;
 }
 
 .name {
@@ -65,6 +67,11 @@ nav {
   rotate: -10deg;
   z-index: 9999;
   position: relative;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 .download-resume {
@@ -138,4 +145,29 @@ a {
 
 .slash {
   font-weight: 100;
+}
+
+#projects {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.project-row {
+  margin: 40px 40px;
+  background-color: red solid 1px;
+}
+
+.project-col {
+  margin: 10px;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }

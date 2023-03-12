@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" crossorigin="anonymous">
 
   <!-- Connecting custom CSS file to index.html -->
-  <link rel="stylesheet" type="text/css" href="../static/main.css"/>
+  <link rel="stylesheet" type="text/css" href="static/main.css"/>
 
   <!-- Title of page + favicon -->
   <title>Mohit Soni's Portfolio</title>
@@ -19,7 +19,7 @@
   <nav class="navbar sticky-top navbar-expand-lg">
     <div class="container-fluid nav-container">
       <a href="#home" class="navbar-brand">
-        <img src="../static/logo.png" width="50" alt="Logo">
+        <img src="images/home-page/logo.png" width="50" alt="Logo">
       </a>
 
       <!-- Button to collapse navbar in small screen size-->
@@ -45,7 +45,7 @@
       <div class="row">
         <!-- Majority of space for picture -->
         <div class="col-6 title-col-1">
-          <img src="../static/personal_photo.jpg" class="title-pic img-fluid" alt="">
+          <img src="images/home-page/personal_photo.jpg" class="title-pic img-fluid" alt="">
         </div>
 
         <!-- Remaining space for title -->
@@ -61,10 +61,10 @@
     </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="reveal">
     <h1>About Me</h1>
-    <div class="extracurricular">
-      <img src="../static/suit_photo.png" class="float-end ext-image" alt="photo of Mohit Soni in suit">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/suit_photo.png" class="float-end ext-image" alt="photo of Mohit Soni in suit">
       <span class="ext-description">
         Greetings, fellow tech enthusiasts! It's Mohit Soni here, 
         ready to rock your world with my skills in web development 
@@ -74,8 +74,8 @@
       </span>
     </div>
 
-    <div class="extracurricular">
-      <img src="../static/uw-image.jpg" class="float-start ext-image" alt="photo of Mohit Soni in suit">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/uw-image.jpg" class="float-start ext-image" alt="photo of Mohit Soni in suit">
       <p class="ext-description">
         But don't let my age fool you - I have experience. I've worked
         alongside a University of Washington professor who specializes 
@@ -85,8 +85,8 @@
       </p>
     </div>
 
-    <div class="extracurricular">
-      <img src="../static/data-image.jpg" class="float-end ext-image" alt="photo of Mohit Soni in suit">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/data-image.jpg" class="float-end ext-image" alt="photo of Mohit Soni in suit">
       <p class="ext-description">
         But when I'm not busy coding away, I like to let loose and 
         have a little fun. That's where Kaggle competitions come in - 
@@ -96,8 +96,8 @@
       </p>
     </div>
 
-    <div class="extracurricular">
-      <img src="../static/stadium-image.jpg" class="float-start ext-image" alt="photo of cricket stadium">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/stadium-image.jpg" class="float-start ext-image" alt="photo of cricket stadium">
       <p class="float-right ext-description">
         I know I may look like your typical tech nerd, but 
         I promise I'm not just a coding machine. I'm also a serious 
@@ -106,8 +106,8 @@
       </p>
     </div>
 
-    <div class="extracurricular">
-      <img src="../static/cricket_photo.png" class="float-end ext-image" alt="photo of Mohit Soni playing cricket">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/cricket_photo.png" class="float-end ext-image" alt="photo of Mohit Soni playing cricket">
       <p class="ext-description">
         Being part of this team has taught me so much about 
         leadership, teamwork, and perseverance. I've had the 
@@ -119,8 +119,8 @@
       </p>
     </div>
 
-    <div class="extracurricular">
-      <img src="../static/cricket-ball-image.jpg" class="float-start ext-image" alt="photo of cricket ball">
+    <div class="extracurricular reveal">
+      <img src="images/about-me/cricket-ball-image.jpg" class="float-start ext-image" alt="photo of cricket ball">
       <p class="ext-description">
         Of course, playing at this level requires a lot of hard work, 
         discipline, and commitment. But it's also incredibly 
@@ -132,8 +132,137 @@
     </div>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="reveal">
+    <h1>My Projects</h1>
+    <div class="row project-row reveal">
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
+        
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row project-row reveal">
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
+        
+      <div class="col project-col">
+        <div class="card">
+          <div class="card-header">
+            Featured
+          </div>
+          <img class="card-img-top" src="" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">HTML</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Card Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer contains icons only -->
@@ -158,5 +287,8 @@
 
   <!-- Font Awesome Kit -->
   <script src="https://kit.fontawesome.com/fea0960476.js" crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="static/index.js"></script>
 </body>
 </html>
