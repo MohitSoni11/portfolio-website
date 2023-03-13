@@ -155,21 +155,20 @@ a {
 
 .project-row {
   margin: 40px 40px;
-  background-color: red solid 1px;
 }
 
 .project-col {
   margin: 10px;
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 2s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -178,4 +177,58 @@ a {
   text-decoration: underline;
   text-underline-position: under;
   color: black;
+}
+
+.card {
+  width: 560px;
+  height: 400px;
+  perspective: 1000px;
+  border: none;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  background-color: #ebc5a1;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(87, 171, 255);
+  color: white;
+  font-size: 22px;
+  transform: rotateY(180deg);
+}
+
+.card-title {
+  margin: 140px 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-description {
+  padding: 45px;
+}
+
+.card-button {
+  margin-top: -40px;
 }
