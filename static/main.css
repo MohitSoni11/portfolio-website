@@ -148,10 +148,6 @@ a {
   margin: 0 20px;
 }
 
-.slash {
-  font-weight: 100;
-}
-
 #projects {
   text-align: center;
   padding-top: 100px;
@@ -172,7 +168,14 @@ a {
   opacity: 0;
   transition: 2s all ease;
 }
+
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+.nav-active {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: black;
 }
