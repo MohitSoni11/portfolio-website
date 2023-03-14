@@ -133,7 +133,7 @@ a {
 }
 
 .extracurricular {
-  padding: 30px 300px 0 300px;
+  padding: 30px 16% 0 16%;
 }
 
 .ext-description {
@@ -150,7 +150,7 @@ a {
 
 #projects {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 5%;
 }
 
 .project-row {
@@ -231,4 +231,52 @@ a {
 
 .card-button {
   margin-top: -40px;
+  font-size: 20px;
 }
+
+@media screen and (max-width: 60rem) {
+  .ext-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  #about {
+    text-align: left;
+  }
+
+  .card {
+    width: 280px;
+    height: 200px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin: 70px 10px;
+  }
+
+  .card-description {
+    padding: 22.5px;
+  }
+
+  .flip-card-back {
+    font-size: 11px;
+  }
+
+  .card-button {
+    margin-top: -20px;
+    font-size: 10px;
+  }
+
+  .project-row {
+    margin: 10px;
+  }
+
+  h1 {
+    width: 300px;
+  }
+
+  #footer > a {
+    margin: 0 20px;
+  }
+}
+
