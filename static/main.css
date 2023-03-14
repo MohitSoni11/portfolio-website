@@ -278,5 +278,9 @@ a {
   #footer > a {
     margin: 0 20px;
   }
+
+  .title-pic {
+    z-index: 0;
+  }
 }
 
